@@ -12,6 +12,12 @@
 } */
 
 
+.h1-mq {
+    font-size: 50px;
+    font-weight: 800;
+    color: aliceblue;
+}
+
 #home {
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,7 +39,8 @@
 .display-hero h1 {
     font-size: 50px;
     color: white;
-} 
+}
+
 .display-hero p {
     max-width: 80%;
     color: white;
@@ -54,5 +61,34 @@
 
 
 
+@media screen and (max-width: 430px) {
+
+    .h1-mq {
+        font-size: 40px;
+        font-weight: 800;
+        color: aliceblue;
+    }
+
+    .headline-mq {
+        margin-left: 55px;
+    }
+
+    para-mq {
+        width: auto;
+    }
+
+    .img-mq {
+        margin-left: 30px;
+    }
+}
 
 
+@media screen and (max-width: 320px) {
+
+    .h1-mq {
+        font-size: 33px;
+        font-weight: 800;
+        color: aliceblue;
+    }
+
+ }

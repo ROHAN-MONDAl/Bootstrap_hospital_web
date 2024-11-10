@@ -26,7 +26,7 @@
     <!-- place navbar here -->
     <nav class="navbar navbar-expand-lg">
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand col-lg-1 col-4" href="#">
           <img src="images/logo.png" class="img-fluid" alt="" srcset="">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -35,7 +35,7 @@
           <i class="fa-solid fa-bars-staggered"></i>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav menu-navbar-nav">
+          <ul class="navbar-nav menu-navbar-nav mt-3 mt-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
@@ -57,10 +57,14 @@
             <li class="nav-item">
               <a class="nav-link" href="#blog">Blog</a>
             </li>
-            <li class="nav-item mt-3 mt-lg-0">
+            <li class="nav-item">
               <a class="nav-link" href="#contact">Contact us</a>
             </li>
           </ul>
+
+        </div>
+        <div class="collapse navbar-collapse mt-3 mt-lg-0 justify-content-lg-end" id="navbarNav">
+          <button type="button" class="btn btn-primary btn-sm">Small button</button>
         </div>
       </div>
     </nav>
@@ -72,11 +76,13 @@
 
         <div class="container">
           <div class="row  display-hero col-12 justify-content-center align-items-center">
-            
-            <div class="col-lg-6 col-md-6 gy-5 order-2 order-lg-1">
+
+            <div class="col-lg-6 col-md-6 gy-5 order-2 order-lg-1 headline-mq">
               <h3>Better Life Through</h3>
-              <h1>Better Dentistry</h1>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil quae voluptatem labore quibusdam
+              <div class="h1-mq">Better Dentistry</div>
+              <p class="col-lg-12 para-mq">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil quae
+                voluptatem labore
+                quibusdam
                 doloribus provident eos id excepturi iste. Vero nesciunt voluptate beatae soluta magni culpa inventore
                 ab
               </p>
@@ -84,7 +90,7 @@
               <a href=""> <button class="btn border-white rounded-0 text-light">Learn More</button></a>
             </div>
 
-            <div class="col-lg-6 col-md-6 gy-5 order-1 order-lg-2">
+            <div class="col-lg-6 col-md-6 gy-5 order-1 order-lg-2 img-mq">
               <div class="img-animate">
                 <img src="images/top-banner-img/top-right-img-1.png" class="img-fluid" alt="" srcset="">
                 <div class="img-doc">
@@ -93,6 +99,7 @@
                 </div>
               </div>
             </div>
+
           </div>
         </div>
 
